@@ -1,23 +1,21 @@
-# <%= title %> Format
+# RSE Revealjs template
 
-## Installing
+This is a Revealjs template inspired by the RSE S.p.A. (*Ricerca sul Sistema Energetico*) official PowerPoint template.
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
+![The title slide of the RSE Revealjs template](rse_title.JPG)
+
+## Install and use
+
+To install and use Quarto extensions the best option is to use `quarto` commands in the shell. To add the **RSE Revealjs template** to an existing directory (project) type the following in the terminal:
 
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto install extension giuliomela/rse_temp@master
 ```
 
-This will install the extension and create an example qmd file that you can use as a starting place for your article.
+The alternative, especially suitable in case one is starting a new project from scratch is to use the `quarto use` command, as suggested in the [Quarto official documentation](https://quarto.org/docs/extensions/starter-templates.html):
 
-## Using
+```bash
+quarto use template giuliomela/rse_temp@master
+```
 
-*TODO*: Describe how to use your format.
-
-## Format Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
-
-## Example
-
-Here is the source code for a minimal sample document: [example.qmd](example.qmd).
+This will install the extension and create an example qmd file that you can use as a starting place for your presentation. Enjoy!
