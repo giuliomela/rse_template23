@@ -5,6 +5,11 @@ quarto-required: ">=1.3.0"
 contributes:
   formats:
     revealjs:
-      theme: [dark, custom.scss]
-      logo: logo.svg
+      theme: [default, rse_template23.scss]
+      #logo: RSE_logo.jpg
+      footer: Ricerca sul Sistema Energetico - RSE S.p.A.
+      slide-number: true
+      scrollable: true
+      title-slide-attributes:
+         data-background-image: "sfondo_prima_slide.jpg"
 
