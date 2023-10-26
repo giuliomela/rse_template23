@@ -58,7 +58,7 @@ ggplot2::diamonds %>%
   rse_theme() +
   scale_colour_rse()
 ```
-# A two-column slide
+## A two-column slide
 
 :::: {.columns}
 
@@ -72,12 +72,19 @@ Column B
 
 ::::
 
-# A Slide with a big text
+## A Slide with a big text
 
 ::: {.r-fit-text}
 Big text
 :::
 
+# Final slide {#final-slide background-image="_extensions/rse_template23/sfondo_prima_slide.jpg"}
 
-
+```{css, echo=FALSE}
+#final-slide, 
+#final-slide h1 {
+ color: white;
+ text-align: center;
+}
+```
 
